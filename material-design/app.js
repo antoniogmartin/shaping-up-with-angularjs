@@ -50,4 +50,19 @@ angular.module('colorsDemo', ['ngMaterial'])
     }
 })
 
+.directive('menuTable', function () {
+    return {
+      restrict: 'E',
+      templateUrl: 'menuTable.tmpl.html',
+      // scope: {
+      //   name: '@'
+      // },
+      // controller: function ($scope) {
+      //   $scope.name= $scope.name || 'Desconocido';
+      // }
+  
+  
+    }
+})
+
 ;
